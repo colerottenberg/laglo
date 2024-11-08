@@ -4,3 +4,5 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+databento = "0.15.0"
+polars = "0.44.2"
