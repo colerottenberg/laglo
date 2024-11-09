@@ -47,6 +47,13 @@ impl Portfolio {
     }
 }
 
+mod strategy {
+    /// Finds single trend signal
+    pub fn trend(contract: str, short: f64, long: f64) -> Vec<f64> {
+        todo!()
+    }
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
