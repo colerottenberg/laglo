@@ -1,5 +1,10 @@
-pub fn add(left: u64, right: u64) -> u64 {
-    left + right
+use databento::dbn::{self};
+use polars::prelude::*;
+use std::path::Path;
+
+pub fn add(p: &str) {
+    let path = Path::new(p);
+    let mut data: DataFrame;
 }
 
 #[cfg(test)]
